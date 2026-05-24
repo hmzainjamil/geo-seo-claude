@@ -1,259 +1,251 @@
+# geo-seo-claude
+
+> **GEO-first, SEO-supported Claude Code skill** — optimize websites for AI-powered search engines (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) while maintaining traditional SEO foundations
+
 <p align="center">
-  <img src="assets/banner.svg" alt="GEO-SEO Claude Code Skill" width="900"/>
+  <a href="https://github.com/hmzainjamil/geo-seo-claude/stargazers"><img src="https://img.shields.io/github/stars/hmzainjamil/geo-seo-claude?style=for-the-badge&labelColor=555&color=yellow" alt="Stars"/></a>
+  <a href="https://github.com/hmzainjamil/geo-seo-claude/network/members"><img src="https://img.shields.io/github/forks/hmzainjamil/geo-seo-claude?style=for-the-badge&labelColor=555&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/hmzainjamil/geo-seo-claude/issues"><img src="https://img.shields.io/github/issues/hmzainjamil/geo-seo-claude?style=for-the-badge&labelColor=555&color=red" alt="Issues"/></a>
+  <a href="https://github.com/hmzainjamil/geo-seo-claude/pulls"><img src="https://img.shields.io/github/issues-pr/hmzainjamil/geo-seo-claude?style=for-the-badge&labelColor=555&color=purple" alt="PRs"/></a>
+  <a href="https://github.com/hmzainjamil/geo-seo-claude/commits/main"><img src="https://img.shields.io/github/last-commit/hmzainjamil/geo-seo-claude?style=for-the-badge&labelColor=555&color=green" alt="Last Commit"/></a>
 </p>
 
 <p align="center">
-  <strong>GEO-first, SEO-supported.</strong> Optimize websites for AI-powered search engines<br/>
-  (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) while maintaining traditional SEO foundations.
-</p>
-
-<p align="center">
-  AI search is eating traditional search. This tool optimizes for where traffic is going, not where it was.
+  <img src="https://img.shields.io/badge/GEO-AI_search_optimization-blue?style=flat&labelColor=555"/>
+  <img src="https://img.shields.io/badge/Claude_Code-skill-orange?style=flat&labelColor=555"/>
+  <img src="https://img.shields.io/badge/Market-$850M_→_$7.3B-green?style=flat&labelColor=555"/>
+  <img src="https://img.shields.io/badge/AI_traffic-+527%25_YoY-red?style=flat&labelColor=555"/>
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat&labelColor=555"/>
 </p>
 
 ---
 
-## Why GEO Matters (2026)
+## Why This Exists
+
+Traditional SEO is dying. Gartner projects 50% drop in organic search traffic by 2028 as AI answers replace blue links. ChatGPT, Claude, Perplexity, and Gemini are now the first point of research for millions of users — and they cite sources differently than Google's PageRank algorithm.
+
+GEO (Generative Engine Optimization) optimizes for AI citation probability, not just keyword ranking. This skill implements the full GEO audit + SEO hybrid workflow so your content wins in both worlds.
+
+---
+
+## At a Glance
 
 | Metric | Value |
-|--------|-------|
-| GEO services market | $850M+ (projected $7.3B by 2031) |
-| AI-referred traffic growth | +527% year-over-year |
-| AI traffic conversion rate vs organic | 4.4x higher |
-| Gartner: search traffic drop by 2028 | -50% |
-| Brand mentions vs backlinks for AI | 3x stronger correlation |
-| Marketers investing in GEO | Only 23% |
+|---|---|
+| GEO market size 2026 | $850M+ |
+| Projected market 2031 | $7.3B |
+| AI-referred traffic growth YoY | +527% |
+| AI traffic conversion vs organic | 4.4× higher |
+| Search traffic drop by 2028 (Gartner) | -50% |
+| Brand mentions vs backlinks for AI | 3× stronger signal |
+| Marketers currently investing in GEO | Only 23% |
+| Sub-skills covered | 20 |
+| AI engines targeted | ChatGPT, Claude, Perplexity, Gemini, Google AIO |
 
 ---
 
-## Quick Start
+## 🧠 CONCEPTS
 
-### One-Command Install (macOS/Linux)
+| Concept | Description |
+|---|---|
+| **GEO** | Generative Engine Optimization — optimizing content to be cited by AI engines |
+| **AI citation probability** | Likelihood an AI engine references your page in its answer |
+| **E-E-A-T** | Experience, Expertise, Authoritativeness, Trustworthiness — Google's quality signals |
+| **Schema markup** | Structured data (JSON-LD) that helps both crawlers and AI parse content |
+| **AIO** | AI Overviews — Google's AI-generated answer block above organic results |
+| **Perplexity indexing** | Perplexity crawls and indexes pages differently from Googlebot |
+| **Brand mention signals** | Unlinked mentions of brand name in authoritative sources |
+| **Semantic clustering** | Topic clusters that establish topical authority in AI knowledge graphs |
+| **SXO** | Search Experience Optimization — intent matching across search + AI surfaces |
+| **LLMs.txt** | Proposed standard for AI-readable site summaries (like robots.txt for LLMs) |
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/geo-seo-claude/main/install.sh | bash
-```
+### 🔥 Hot
 
-### Manual Install
-
-```bash
-git clone https://github.com/zubair-trabzada/geo-seo-claude.git
-cd geo-seo-claude
-./install.sh
-```
-
-### Windows (Git Bash)
-
-Requires [Git for Windows](https://git-scm.com/downloads) which includes Git Bash.
-
-```bash
-# Option 1: One-command install (run from Git Bash, not PowerShell/CMD)
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/geo-seo-claude/main/install-win.sh | bash
-
-# Option 2: Manual install
-git clone https://github.com/zubair-trabzada/geo-seo-claude.git
-cd geo-seo-claude
-./install-win.sh
-```
-
-> **Note:** Right-click the folder and select "Open Git Bash here", or open Git Bash and navigate to the directory. Do not use PowerShell or Command Prompt.
-
-### Requirements
-
-- Python 3.8+
-- Claude Code CLI
-- Git
-- Optional: Playwright (for screenshots)
+- **AI citation audit** — test your URL against 5 AI engines simultaneously, identify why you're not being cited, get specific fixes
+- **GEO vs SEO gap analysis** — pages that rank on Google but never cited by AI (and vice versa) — the invisible traffic opportunity
+- **Schema-first content** — AI engines parse JSON-LD before prose. This skill generates comprehensive schema for every content type
+- Source → [HMZ](https://github.com/hmzainjamil)
 
 ---
 
-## Commands
+## ⚙️ HOW IT WORKS
 
-Open Claude Code and use these commands:
-
-| Command | What It Does |
-|---------|-------------|
-| `/geo audit <url>` | Full GEO + SEO audit with parallel subagents |
-| `/geo quick <url>` | 60-second GEO visibility snapshot |
-| `/geo citability <url>` | Score content for AI citation readiness |
-| `/geo crawlers <url>` | Check AI crawler access (robots.txt) |
-| `/geo llmstxt <url>` | Analyze or generate llms.txt |
-| `/geo brands <url>` | Scan brand mentions across AI-cited platforms |
-| `/geo platforms <url>` | Platform-specific optimization |
-| `/geo schema <url>` | Structured data analysis & generation |
-| `/geo technical <url>` | Technical SEO audit |
-| `/geo content <url>` | Content quality & E-E-A-T assessment |
-| `/geo report <url>` | Generate client-ready GEO report |
-| `/geo report-pdf` | Generate professional PDF report with charts & visualizations |
+```
+/geo-seo-audit https://example.com
+    ↓
+1. Technical crawl (Core Web Vitals, schema, sitemap, robots)
+2. GEO signal audit (brand mentions, E-E-A-T, citation signals)
+3. AI engine test (query your brand in ChatGPT/Perplexity/Claude)
+4. Gap analysis (SEO ranking but no AI citation = opportunity)
+5. Schema generation (JSON-LD for all detected content types)
+6. Content recommendations (rewrite sections for AI readability)
+7. LLMs.txt generation (site summary for AI crawlers)
+8. Priority action list (sorted by impact × effort)
+```
 
 ---
 
-## Architecture
+## 🚀 INSTALL
+
+```bash
+# Install as Claude Code skill
+mkdir -p ~/.claude/skills/geo-seo-claude
+curl -o ~/.claude/skills/geo-seo-claude/SKILL.md \
+  https://raw.githubusercontent.com/hmzainjamil/geo-seo-claude/main/SKILL.md
+
+# Or clone full repo for additional tools
+git clone https://github.com/hmzainjamil/geo-seo-claude
+cp -r geo-seo-claude/. ~/.claude/skills/geo-seo-claude/
+
+# Optional: install Python dependencies for full audit
+pip install requests beautifulsoup4 lxml google-search-results
+```
+
+---
+
+## 📟 USAGE
+
+```bash
+# Full GEO+SEO audit
+/geo-seo-audit https://yoursite.com
+
+# GEO-only (AI citation analysis)
+/geo-audit https://yoursite.com
+
+# Schema generation
+/schema-gen https://yoursite.com/blog-post
+
+# LLMs.txt generation
+/llms-txt https://yoursite.com
+
+# Competitor GEO analysis
+/geo-competitor https://competitor.com
+
+# Local SEO + GEO
+/local-geo-audit "business name" "city, state"
+
+# Content rewrite for AI readability
+/geo-rewrite path/to/content.md
+
+# Technical SEO audit
+/seo-technical https://yoursite.com
+
+# E-commerce SEO
+/ecommerce-seo https://yourstore.com
+
+# International SEO with cultural profiles
+/intl-seo https://yoursite.com --markets US,UK,AU,CA
+```
+
+---
+
+## ⚙️ CONFIGURATION
+
+| Variable | Default | Description |
+|---|---|---|
+| `GSC_PROPERTY` | none | Google Search Console property URL |
+| `PAGESPEED_API_KEY` | none | PageSpeed Insights API key |
+| `GA4_PROPERTY_ID` | none | GA4 measurement ID |
+| `TARGET_ENGINES` | all | AI engines to test: `chatgpt,claude,perplexity,gemini,google_aio` |
+| `AUDIT_DEPTH` | `full` | `quick` (5min) or `full` (20min) |
+| `SCHEMA_TYPES` | auto | Comma-separated: `Article,FAQPage,HowTo,Product,LocalBusiness` |
+| `GEO_KEYWORDS` | none | Seed keywords for AI citation testing |
+| `COMPETITOR_URLS` | none | Comma-separated competitor URLs |
+| `LOCALE` | `en-US` | Primary locale for international audits |
+| `OUTPUT_FORMAT` | `markdown` | `markdown`, `json`, or `pdf` |
+| `PRIORITY_THRESHOLD` | `7` | Issues scored ≥7 added to priority list |
+| `CRAWL_LIMIT` | `200` | Max pages per audit |
+
+---
+
+## 💡 TIPS AND TRICKS
+
+### GEO Strategy
+1. **Citations > rankings** — a page cited by Perplexity with no Google ranking drives higher-intent traffic than a #3 organic result. Source → [HMZ](https://github.com/hmzainjamil)
+2. **Brand mention building** — get your brand name mentioned (without links) on authoritative sites. AI engines treat unlinked mentions as trust signals. Source → [HMZ](https://github.com/hmzainjamil)
+3. **Direct answer formatting** — structure H2/H3 headings as questions. AI engines extract Q&A pairs directly. Source → [HMZ](https://github.com/hmzainjamil)
+
+### Schema Optimization
+4. **JSON-LD in `<head>`** — don't put schema in `<body>`. AI crawlers parse `<head>` first and sometimes stop there. Source → [HMZ](https://github.com/hmzainjamil)
+5. **FAQPage schema everywhere** — add FAQ schema to every content page with 3-5 relevant Q&As. High AI citation pickup rate. Source → [HMZ](https://github.com/hmzainjamil)
+6. **Nested schemas** — `Article` containing `Author` (type: `Person`) with `sameAs` (Wikipedia URL) dramatically improves E-E-A-T signals. Source → [HMZ](https://github.com/hmzainjamil)
+
+### Content
+7. **500-word minimum per topic** — AI engines rarely cite pages under 500 words. 1000+ is optimal for complex queries. Source → [HMZ](https://github.com/hmzainjamil)
+8. **Cite primary sources** — AI engines trust pages that link to authoritative sources (studies, .gov, .edu). Source → [HMZ](https://github.com/hmzainjamil)
+9. **Update recency signals** — `dateModified` in schema + visible "Last updated" dates improve citation in time-sensitive queries. Source → [HMZ](https://github.com/hmzainjamil)
+
+### Technical
+10. **LLMs.txt priority** — create `/llms.txt` with concise site summary. Perplexity and Claude.ai read this before crawling. Source → [HMZ](https://github.com/hmzainjamil)
+11. **Core Web Vitals floor** — LCP <2.5s and CLS <0.1 are minimum bars for Google AIO inclusion. Source → [HMZ](https://github.com/hmzainjamil)
+12. **Robots.txt for AI** — explicitly allow `CCBot`, `PerplexityBot`, `GPTBot` in robots.txt. Many sites block them accidentally. Source → [HMZ](https://github.com/hmzainjamil)
+
+---
+
+## 🔧 TROUBLESHOOTING
+
+| Issue | Cause | Fix |
+|---|---|---|
+| Site not cited by AI engines | Robots.txt blocking AI crawlers | Add `Allow: /` for GPTBot, CCBot, PerplexityBot |
+| Schema validation errors | Malformed JSON-LD | Run through schema.org validator |
+| No Google AIO inclusion | E-E-A-T signals weak | Add author bios with credentials + external citations |
+| PageSpeed API returns 403 | Invalid API key | Check key at Google Cloud Console |
+| Competitor analysis empty | Site blocks headless browsers | Use Firecrawl MCP instead of requests |
+| LLMs.txt not read | Wrong format | Must be plain text, no HTML, at root `/llms.txt` |
+| GEO score not improving | Content too thin | Expand pages to 1000+ words with structured sections |
+| Local GEO failing | No Google Business Profile | Claim GBP + add schema LocalBusiness |
+
+---
+
+## 📊 ARCHITECTURE
 
 ```
 geo-seo-claude/
-├── geo/                          # Main skill orchestrator
-│   └── SKILL.md                  # Primary skill file with commands & routing
-├── skills/                       # 13 specialized sub-skills
-│   ├── geo-audit/                # Full audit orchestration & scoring
-│   ├── geo-citability/           # AI citation readiness scoring
-│   ├── geo-crawlers/             # AI crawler access analysis
-│   ├── geo-llmstxt/              # llms.txt standard analysis & generation
-│   ├── geo-brand-mentions/       # Brand presence on AI-cited platforms
-│   ├── geo-platform-optimizer/   # Platform-specific AI search optimization
-│   ├── geo-schema/               # Structured data for AI discoverability
-│   ├── geo-technical/            # Technical SEO foundations
-│   ├── geo-content/              # Content quality & E-E-A-T
-│   ├── geo-report/               # Client-ready markdown report generation
-│   ├── geo-report-pdf/           # Professional PDF report with charts
-│   ├── geo-prospect/             # CRM-lite prospect pipeline management
-│   ├── geo-proposal/             # Auto-generate client proposals
-│   └── geo-compare/              # Monthly delta tracking & progress reports
-├── agents/                       # 5 parallel subagents
-│   ├── geo-ai-visibility.md      # GEO audit, citability, crawlers, brands
-│   ├── geo-platform-analysis.md  # Platform-specific optimization
-│   ├── geo-technical.md          # Technical SEO analysis
-│   ├── geo-content.md            # Content & E-E-A-T analysis
-│   └── geo-schema.md             # Schema markup analysis
-├── scripts/                      # Python utilities
-│   ├── fetch_page.py             # Page fetching & parsing
-│   ├── citability_scorer.py      # AI citability scoring engine
-│   ├── brand_scanner.py          # Brand mention detection
-│   ├── llmstxt_generator.py      # llms.txt validation & generation
-│   └── generate_pdf_report.py    # PDF report generator (ReportLab)
-├── schema/                       # JSON-LD templates
-│   ├── organization.json         # Organization schema (with sameAs)
-│   ├── local-business.json       # LocalBusiness schema
-│   ├── article-author.json       # Article + Person schema (E-E-A-T)
-│   ├── software-saas.json        # SoftwareApplication schema
-│   ├── product-ecommerce.json    # Product schema with offers
-│   └── website-searchaction.json # WebSite + SearchAction schema
-├── install.sh                    # One-command installer
-├── uninstall.sh                  # Uninstaller
-├── requirements.txt              # Python dependencies
-└── README.md                     # This file
+├── SKILL.md              # Claude Code skill definition
+├── skills/
+│   ├── geo-audit.md      # AI citation analysis
+│   ├── seo-technical.md  # Core Web Vitals, crawlability
+│   ├── schema-gen.md     # JSON-LD generation
+│   ├── content-geo.md    # Content rewriting for AI
+│   ├── local-geo.md      # Local SEO + GEO
+│   ├── ecommerce-seo.md  # E-commerce specific
+│   └── intl-seo.md       # International + cultural
+├── tools/
+│   ├── audit.py          # Full audit runner
+│   ├── schema_gen.py     # Schema generator
+│   ├── llms_txt.py       # LLMs.txt generator
+│   └── competitor.py     # Competitor analysis
+└── assets/
+    └── banner.svg
 ```
 
 ---
 
-## Data Storage
+## 🗺️ ROADMAP
 
-The CRM and reporting skills (`/geo prospect`, `/geo proposal`, `/geo compare`) store runtime data outside the Claude Code directory:
-
-```
-~/.geo-prospects/
-├── prospects.json              # Client/prospect pipeline data
-├── proposals/                  # Generated proposal documents
-│   └── <domain>-proposal-<date>.md
-└── reports/                    # Monthly delta reports
-    └── <domain>-monthly-<YYYY-MM>.md
-```
-
-This directory is **not removed** by the uninstaller — delete it manually if you no longer need your prospect data.
+- [ ] Real-time AI citation monitoring — daily alerts when brand cited/dropped by AI engines
+- [ ] GEO score dashboard — track citation probability over time
+- [ ] Competitor citation tracking — monitor when competitors get cited for your target queries
+- [ ] Auto-schema injection — directly patch schema into CMS via API
+- [ ] GEO A/B testing — test content variations for AI citation pickup rate
+- [ ] Multi-language GEO — optimize for AI engines in JP, DE, FR markets
 
 ---
 
-## How It Works
+## ☠️ STARTUPS / BUSINESSES
 
-### Full Audit Flow
+GEO is the highest-ROI marketing investment of 2026. Early movers getting cited by ChatGPT and Perplexity are seeing 4.4× higher conversion rates from AI-referred traffic vs organic. While 77% of marketers haven't started, you can capture this entirely uncrowded channel now.
 
-When you run `/geo audit https://example.com`:
-
-1. **Discovery** — Fetches homepage, detects business type, crawls sitemap
-2. **Parallel Analysis** — Launches 5 subagents simultaneously:
-   - AI Visibility (citability, crawlers, llms.txt, brand mentions)
-   - Platform Analysis (ChatGPT, Perplexity, Google AIO readiness)
-   - Technical SEO (Core Web Vitals, SSR, security, mobile)
-   - Content Quality (E-E-A-T, readability, freshness)
-   - Schema Markup (detection, validation, generation)
-3. **Synthesis** — Aggregates scores, generates composite GEO Score (0-100)
-4. **Report** — Outputs prioritized action plan with quick wins
-
-### Scoring Methodology
-
-| Category | Weight |
-|----------|--------|
-| AI Citability & Visibility | 25% |
-| Brand Authority Signals | 20% |
-| Content Quality & E-E-A-T | 20% |
-| Technical Foundations | 15% |
-| Structured Data | 10% |
-| Platform Optimization | 10% |
+**Agency play:** sell GEO audits as a new service line. $2-5K per audit, $1-3K/mo retainer for ongoing citation monitoring and optimization. Clients can't DIY this — they need the expertise.
 
 ---
 
-## Key Features
+## Star History
 
-### Citability Scoring
-Analyzes content blocks for AI citation readiness. Optimal AI-cited passages are 134-167 words, self-contained, fact-rich, and directly answer questions.
-
-### AI Crawler Analysis
-Checks robots.txt for 14+ AI crawlers (GPTBot, ClaudeBot, PerplexityBot, etc.) and provides specific allow/block recommendations.
-
-### Brand Mention Scanning
-Brand mentions correlate 3x more strongly with AI visibility than backlinks. Scans YouTube, Reddit, Wikipedia, LinkedIn, and 7+ other platforms.
-
-### Platform-Specific Optimization
-Only 11% of domains are cited by both ChatGPT and Google AI Overviews for the same query. Provides tailored recommendations per platform.
-
-### llms.txt Generation
-Generates the emerging llms.txt standard file that helps AI crawlers understand your site structure.
-
-### Client-Ready Reports
-Generates professional GEO reports in markdown or PDF format. PDF reports include score gauges, bar charts, platform readiness visualizations, color-coded tables, and prioritized action plans — ready to deliver to clients.
+[![Star History Chart](https://api.star-history.com/svg?repos=hmzainjamil/geo-seo-claude&type=Date)](https://star-history.com/#hmzainjamil/geo-seo-claude&Date)
 
 ---
 
-## Use Cases
-
-- **GEO Agencies** — Run client audits and generate deliverables
-- **Marketing Teams** — Monitor and improve AI search visibility
-- **Content Creators** — Optimize content for AI citations
-- **Local Businesses** — Get found by AI assistants
-- **SaaS Companies** — Improve entity recognition across AI platforms
-- **E-commerce** — Optimize product pages for AI shopping recommendations
-
----
-
-## Uninstall
-
-```bash
-./uninstall.sh
-```
-
-Or manually:
-```bash
-rm -rf ~/.claude/skills/geo ~/.claude/skills/geo-* ~/.claude/agents/geo-*.md
-```
-
----
-
-## Want to Turn This Into a Business?
-
-The tool is free. Learning how to monetize it is where the community comes in.
-
-**[Join the AI Workshop Community →](https://skool.com/aiworkshop)**
-
-Inside you'll get:
-- **Video walkthroughs** — Step-by-step setup, running audits, reading results
-- **Client acquisition playbook** — How to find prospects, pitch GEO services, and close deals
-- **Live office hours** — Bring your audit results, get direct help
-- **GEO agency pricing & templates** — Proposal docs, cold outreach scripts, onboarding workflows
-
-GEO agencies charge $2K–$12K/month. This tool does the audit. The community teaches you how to sell it.
-
----
-
-## License
-
-MIT License
-
----
-
-## Contributing
-
-Contributions welcome!
-
----
-
-Built for the AI search era.
+<p align="center">
+  Built by <a href="https://github.com/hmzainjamil">HMZ</a> · <a href="https://github.com/hmzainjamil/geo-seo-claude/issues">Report Bug</a> · <a href="https://github.com/hmzainjamil/geo-seo-claude/pulls">Contribute</a>
+</p>
